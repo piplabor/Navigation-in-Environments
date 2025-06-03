@@ -1172,8 +1172,9 @@ GameObject:
   - component: {fileID: 353635438}
   - component: {fileID: 353635437}
   - component: {fileID: 353635436}
+  - component: {fileID: 353635439}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: Player Icon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1269,6 +1270,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 353635434}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &353635439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 353635434}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e66d192440cacb44b5a10246bdc596e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  xrOrigin: {fileID: 2036401066}
+  mapRect: {fileID: 2143656711}
+  mapSizeWorld: {x: 100, y: 100}
+  viewCone: {fileID: 1645096844}
+  xrHeadTransform: {fileID: 441087515}
 --- !u!1001 &407162260
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1767,6 +1785,9 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1356890614}
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1717954561962503725, guid: a11c5c61d8aed9a47b1eea64bfd2f786, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2036401067}
     - targetCorrespondingSourceObject: {fileID: 1767192433, guid: a11c5c61d8aed9a47b1eea64bfd2f786, type: 3}
       insertIndex: -1
       addedObject: {fileID: 441087508}
@@ -1830,6 +1851,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1767192434, guid: a11c5c61d8aed9a47b1eea64bfd2f786, type: 3}
   m_PrefabInstance: {fileID: 441087506}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &448919775 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 153982007679157697, guid: a11c5c61d8aed9a47b1eea64bfd2f786, type: 3}
+  m_PrefabInstance: {fileID: 441087506}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b1e8c997df241c1a67045eeac79b41b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &502619178
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3914,7 +3946,7 @@ Transform:
   m_GameObject: {fileID: 1249617917}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -15.5}
+  m_LocalPosition: {x: 0, y: 0, z: -2.3}
   m_LocalScale: {x: 10, y: 10, z: 10}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5021,7 +5053,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 0}
+  m_Texture: {fileID: 2800000, guid: 578dbdfca5c664d48adf3c49f479076c, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -6030,6 +6062,31 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4218284341781176, guid: 0a38eb871bfa7c646bc59c4f2eeea64b, type: 3}
   m_PrefabInstance: {fileID: 2035114148}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2036401060 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1717954561962503725, guid: a11c5c61d8aed9a47b1eea64bfd2f786, type: 3}
+  m_PrefabInstance: {fileID: 441087506}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &2036401066 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1717954561962503726, guid: a11c5c61d8aed9a47b1eea64bfd2f786, type: 3}
+  m_PrefabInstance: {fileID: 441087506}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2036401067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2036401060}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f148049617d70464791bf74b6a0058f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveProvider: {fileID: 448919775}
+  rightTriggerAction: {fileID: 83097790271614945, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  mapCanvas: {fileID: 1356890613}
 --- !u!1001 &2040034896
 PrefabInstance:
   m_ObjectHideFlags: 0
