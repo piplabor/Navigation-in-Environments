@@ -16,6 +16,6 @@ public class TriggerMovementBlocker : MonoBehaviour
         moveProvider.enabled = !isHoldingTrigger;
         if (mapCanvas != null )
         { mapCanvas.SetActive(isHoldingTrigger); 
-        }
+            }
     }
 }
