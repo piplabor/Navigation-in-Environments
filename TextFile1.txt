@@ -1,0 +1,30 @@
+Navigation in Environments II
+
+Tutorial 
+Exit 
+
+Um das Experiment zu starten, drücke mit einer beliebigen Taste auf "Tutorial". 
+
+
+Herzlich Willkommen!
+Die kommenden Schritte in diesem Tutorial sollen dir helfen das Experiment durchzuführen. X
+
+Deine Aufgabe wird es sein in einer unbekannten Stadt ein Objekt zu finden. 
+Mehr dazu später. X
+
+Du kannst dich umschauen indem du den Kopf drehst. X
+
+Um dich zu bewegen drücke einfach den linken Joystik nach vorne. 
+Probier es aus, indem du zu dem Fragezeichen läufst. X
+
+Gut gemacht! Du hast das Fragezeichen erreicht.
+
+Mit dem rechten Trigger kannst du eine Karte aufrufen. 
+Die ist immer eine abstrakte Version der aktuellen unbekannten Welt. 
+Sie zeigt durch einen Punkt an wo du dich gerade in dem Straßennetz befindest.
+
+In dem Tutorial verrät dir ein Kreuz dein erstes Ziel. 
+
+
+Du bist nun bereit für das Experiment.
+Im Experiment wird es nun anders herum sein: Du kennst dein Objekt, aber nicht den Ort an dem es sich befindet.
