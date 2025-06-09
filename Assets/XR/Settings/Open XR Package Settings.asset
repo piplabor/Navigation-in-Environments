@@ -854,11 +854,12 @@ MonoBehaviour:
   features:
   - {fileID: 4963040286616351577}
   - {fileID: -1557233674024107270}
-  - {fileID: -1276894210230670667}
+  - {fileID: 4893829345954421791}
   - {fileID: -4478006660784508864}
   - {fileID: 6504682016904032715}
   - {fileID: 5007098057516315081}
   - {fileID: -34596358968032513}
+<<<<<<< Updated upstream
   - {fileID: 928296757526069075}
   - {fileID: -4647824206626811188}
   - {fileID: -4314466618941312080}
@@ -870,6 +871,15 @@ MonoBehaviour:
   - {fileID: 6841333374066517713}
   - {fileID: -4454024988132797082}
   - {fileID: -8895518590110429109}
+=======
+  - {fileID: -8732650259347650135}
+  - {fileID: -4647824206626811188}
+  - {fileID: -4314466618941312080}
+  - {fileID: -2513858183220632965}
+  - {fileID: 6841333374066517713}
+  - {fileID: -8316650401159007347}
+  - {fileID: 154189092879288027}
+>>>>>>> Stashed changes
   - {fileID: -4731438336562001402}
   - {fileID: 2316775424616146661}
   - {fileID: -7494486358618572369}
@@ -1219,7 +1229,7 @@ MonoBehaviour:
     m_List: 00000000
   m_depthSubmissionMode: 0
   m_spacewarpMotionVectorTextureFormat: 0
-  m_optimizeBufferDiscards: 0
+  m_optimizeBufferDiscards: 1
   m_symmetricProjection: 0
 --- !u!114 &-34596358968032513
 MonoBehaviour:
@@ -2654,10 +2664,10 @@ MonoBehaviour:
     enabled: 1
   - visibleName: Quest 3
     manifestName: eureka
-    enabled: 1
+    enabled: 0
   - visibleName: Quest 3S
     manifestName: quest3s
-    enabled: 1
+    enabled: 0
   forceRemoveInternetPermission: 1
   symmetricProjection: 0
   foveatedRenderingApi: 0
